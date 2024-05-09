@@ -1,0 +1,23 @@
+{
+  "name": "tariff-provider",
+  "version": "1.0.0",
+  "description": "Tariff provider service",
+  "author": "Aparna Saha <tready.aparna@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "npm",
+    "tariff-provider"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.0"
+  }
+}
